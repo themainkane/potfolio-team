@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
-    <link rel="stylesheet" href="./scss/style.scss" />
+    <link rel="stylesheet" href="./scss/index.scss" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,25 +14,27 @@
   </head>
   <body>
     <main class="all">
-      <nav class="nav-bar">
-        <p><a href="#workflow">WORKFLOW</a></p>
-        <p><a href="#skill-sets">SKILL SETS</a></p>
-        <p><a href="#porfolio">PORTFOLIO</a></p>
-        <p><a href="#about-me">ABOUT ME</a></p>
-        <p><a href="#socials">SOCIALS</a></p>
-      </nav>
       <header>
+        <nav class="nav">
+          <p><a href="#_workflow">WORKFLOW</a></p>
+          <p><a href="#_skillsets">SKILL SETS</a></p>
+          <p><a href="#_porfolio">PORTFOLIO</a></p>
+          <p><a href="#_about_me">ABOUT ME</a></p>
+          <p><a href="#_socials">SOCIALS</a></p>
+        </nav>
         <div class="title">
-          <h2 class="title__line">Hi, my name is</h2>
-          <h1 class="title__line title__line-big">Joe Kane</h1>
-          <h2 class="title__line">and I am a full stack developer.</h2>
+          <h1>
+            <span class="title__top">Hi my name is</span
+            ><span class="title__name">Joe Kane</span
+            ><span class="title__bottom">and I am a Full-stack Developer</span>
+          </h1>
         </div>
       </header>
-      <div class="mid-section">
+      <div class="sections">
         <!-- workflow bubbles -->
         <div id="_workflow" class="workflow">
-          <div>
-            <p class="workflow__intro">
+          <div class="workflow__intro">
+            <p>
               Lets work together to make your product stand out. I create
               beautiful and functional websites. I work with my clients step by
               step from the idea stage until we have a fully functioning web
@@ -41,29 +43,29 @@
           </div>
           <div class="workflow__stages">
             <div class="workflow__stage">
-              <h3 class="stage__title">Discover</h3>
-              <p class="stage__summary">
+              <h3 class="workflow__stage-title">Discover</h3>
+              <p class="workflow__stage-summary">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Doloremque culpa nisi earum perspiciatis, assumenda sunt.
               </p>
             </div>
             <div class="workflow__stage">
-              <h3 class="stage__title">Design</h3>
-              <p class="stage__summary">
+              <h3 class="workflow__stage-title">Design</h3>
+              <p class="workflow__stage-summary">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel
                 illum commodi consectetur natus, at ad?
               </p>
             </div>
             <div class="workflow__stage">
-              <h3 class="stage__title">Deploy</h3>
-              <p class="stage__summary">
+              <h3 class="workflow__stage-title">Deploy</h3>
+              <p class="sworkflow__stage-summary">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Tempore quos architecto iusto natus, reprehenderit dolores.
               </p>
             </div>
             <div class="workflow__stage">
-              <h3 class="stage__title">Develop</h3>
-              <p class="stage__summary">
+              <h3 class="workflow__stage-title">Develop</h3>
+              <p class="sworkflow__stage-summary">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero
                 reprehenderit amet eum repellendus, veritatis officiis.
               </p>
@@ -71,27 +73,27 @@
           </div>
         </div>
         <!-- skill set -->
-        <div id="#skill-sets" class="skill-sets">
-          <div class="skill-sets__title">
-            <h2 class="skill-sets__title">My Skill Set</h2>
+        <div id="_skillsets" class="skillsets">
+          <div class="skillsets__title">
+            <h2>My Skill Sets</h2>
           </div>
-          <div class="skill-set">
-            <p class="skill-set__title">HTML</p>
-            <div class="skill-set__progress-HTML"></div>
-            <div class="skill-set__score-HTML">
+          <div class="skillset">
+            <p class="skillset__title">HTML</p>
+            <div class="skillset__progress-HTML"></div>
+            <div class="skillset__score-HTML">
               <p>70%</p>
               <!-- consider another div for progress bar above -->
             </div>
           </div>
-          <div class="skill-set">
-            <p class="skill-set__title">CSS, Sass</p>
-            <div class="skill-set__progress-CSS"></div>
-            <div class="skill-set__score-CSS">
+          <div class="skillset">
+            <p class="skillset__title">CSS, Sass</p>
+            <div class="skillset__progress-CSS"></div>
+            <div class="skillset__score-CSS">
               <p>50%</p>
               <!-- consider another div for progress bar above -->
             </div>
           </div>
-          <div class="skill-set">
+          <div class="skillset">
             <p class="skill-set__title">JavaScript</p>
             <div class="skill-set__progress-JS"></div>
             <div class="skill-set__score-JS">
@@ -99,10 +101,10 @@
               <!-- consider another div for progress bar above -->
             </div>
           </div>
-          <div class="skill-set">
-            <p class="skill-set__title">PHP</p>
-            <div class="skill-set__progress-PHP"></div>
-            <div class="skill-set__score-PHP">
+          <div class="skillset">
+            <p class="skillset__title">PHP</p>
+            <div class="skillset__progress-PHP"></div>
+            <div class="skillset__score-PHP">
               <p>40%</p>
               <!-- consider another div for progress bar above -->
             </div>
@@ -115,17 +117,17 @@
               <!-- consider another div for progress bar above -->
             </div>
           </div>
-          <div class="skill-set">
-            <p class="skill-set__title">Laravel</p>
-            <div class="skill-set__progress-laravel"></div>
-            <div class="skill-set__score-laravel">
+          <div class="skillset">
+            <p class="skillset__title">Laravel</p>
+            <div class="skillset__progress-laravel"></div>
+            <div class="skillset__score-laravel">
               <p>3%</p>
               <!-- consider another div for progress bar above -->
             </div>
           </div>
         </div>
         <!-- portfolio, linked thumbnails -->
-        <div id="#portfolio" class="portfolio">
+        <div id="_portfolio" class="portfolios__all">
           <h2 class="portfolio__title">My Portfolio</h2>
           <div class="portfolios">
             <div class="portfolio__project">
@@ -190,8 +192,8 @@
             </div>
           </div>
         </div>
-        <div id="about-me" class="about-me">
-          <h2 class="about-me__title">About Me</h2>
+        <div id="_about_me" class="about_me">
+          <h2 class="about_me__title">About Me</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
             iste voluptatem maxime, est assumenda molestias? Nihil blanditiis
@@ -200,8 +202,8 @@
           </p>
         </div>
       </div>
-      <footer>
-        <div id="socials" class="footer__socials">
+      <footer class="footer">
+        <div id="_socials" class="footer__socials">
           <a class="git-hub" href="#"><img src="" alt="" /></a>
           <a href="" class="linkedin"><img src="" alt="" /></a>
         </div>

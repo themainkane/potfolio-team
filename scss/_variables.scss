@@ -1,0 +1,22 @@
+// variables
+$primary_color: lightgrey;
+$secondary_color: rgba(88, 126, 17, 0.397);
+$tertiary_color: black;
+
+
+
+// mixin decs
+
+@mixin center-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin center-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
