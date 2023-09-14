@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.all {
+  font-family: "Alegreya Sans";
+  display: flex;
+  flex-direction: column;
+}
+
+/* top sections */
+.nav-bar {
+  height: 60px;
+  padding: 35px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+header {
+  background-color: #3e616b;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  height: 300px;
+}
+
+.title {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: whitesmoke;
+  padding: 20px;
+}
+
+.title__line {
+  margin: 20px;
+  font-size: 40px;
+}
+
+.title__line.title__line-big {
+  font-size: 60px;
+  text-decoration: underline;
+}
+
+/* mid section */
+.mid-section {
+  width: 100%vw;
+}
+
+/* smaller mid containers & items within */
+
+.workflow {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+}
+.workflow__intro {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.workflow__stages {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 400px;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.workflow__stage {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  background-color: yellowgreen;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.skill-sets {
+  height: 400px;
+  width: 100vw;
+  padding: 100px 10px 50px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #3e616b;
+}
+
+.skill-sets__title {
+  color: whitesmoke;
+}
+
+.skill-set {
+  width: 80vw;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.skill-set__title {
+  width: 15%;
+  height: 50px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: whitesmoke;
+}
+
+/* progress bars */
+.skill-set__score-HTML {
+  width: 30%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: lightslategray;
+  padding-right: 20px;
+}
+
+.skill-set__progress-HTML {
+  height: 50px;
+  width: 70%;
+  display: flex;
+  background-color: antiquewhite;
+}
+
+.skill-set__score-CSS {
+  width: 40%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: lightslategray;
+  padding-right: 20px;
+}
+
+.skill-set__progress-CSS {
+  height: 50px;
+  width: 60%;
+  display: flex;
+  background-color: antiquewhite;
+}
+
+.skill-set__score-JS {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: lightslategray;
+  padding-right: 20px;
+}
+
+.skill-set__progress-JS {
+  height: 50px;
+  width: 50%;
+  display: flex;
+  background-color: antiquewhite;
+}
+.skill-set__score-PHP {
+  width: 60%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: lightslategray;
+  padding-right: 20px;
+}
+
+.skill-set__progress-PHP {
+  height: 50px;
+  width: 40%;
+  display: flex;
+  background-color: antiquewhite;
+}
+
+.skill-set__score-react {
+  width: 93%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: lightslategray;
+  padding-right: 20px;
+}
+
+.skill-set__progress-react {
+  height: 50px;
+  width: 7%;
+  display: flex;
+  background-color: antiquewhite;
+}
+
+.skill-set__score-laravel {
+  width: 97%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: lightslategray;
+  padding-right: 20px;
+}
+
+.skill-set__progress-laravel {
+  height: 50px;
+  width: 3%;
+  display: flex;
+  background-color: antiquewhite;
+}
+
+/* end of progress bars! */
+
+.portfolio {
+  display: flex;
+  background-color: #6b6b6b;
+}
+
+.about-me {
+  display: flex;
+  background-color: whitesmoke;
+  color: #3e616b;
+}
+
+/* bottom sections */
+
+footer {
+  display: flexs;
+  background-color: #6b6b6b;
+  color: whitesmoke;
+}
+
+.footer__socials {
+}
+
+.footer__copyright {
+}
