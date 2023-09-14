@@ -20,3 +20,8 @@ $tertiary_color: black;
     align-items: center;
     justify-content: flex-start;
 }
+
+@mixin small-margin {
+    margin: 5rem;
+    padding: 2rem;
+}

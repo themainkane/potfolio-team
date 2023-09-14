@@ -1,0 +1,19 @@
+.workflow{
+     &__stages {
+    @include center-center;
+}
+    &__stage {
+        @include center-center;
+        flex-direction: column;
+        width: 15rem;
+        height: 15rem;
+        @include small-margin;
+        background-color: red;
+        text-align: center;
+        border-radius: 50%;
+            &-title{
+                margin:6%;
+            }
+        
+    }
+}
