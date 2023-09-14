@@ -1,16 +1,15 @@
 @import "./variables";
 @import "./about_me.scss";
-@import "./footer.scss" ;
-@import "./header.scss" ;
-@import "./index.scss" ;
-@import "./portfolio.scss" ;
-@import "./skillsets.scss" ;
-@import "./workflow.scss" ;
+@import "./footer.scss";
+@import "./header.scss";
+@import "./portfolio.scss";
+@import "./skillsets.scss";
+@import "./workflow.scss";
 
 *,
 *::after,
 *::before {
-    margin: 0px;
-    border: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
 }
